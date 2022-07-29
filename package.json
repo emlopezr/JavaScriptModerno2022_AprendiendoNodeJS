@@ -1,0 +1,19 @@
+{
+  "name": "javascriptmoderno2022_aprendiendonodejs",
+  "version": "1.0.0",
+  "description": "Primer proyecto NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopezemmanuel/JavaScriptModerno2022_AprendiendoNodeJS.git"
+  },
+  "author": "lopezemmanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lopezemmanuel/JavaScriptModerno2022_AprendiendoNodeJS/issues"
+  },
+  "homepage": "https://github.com/lopezemmanuel/JavaScriptModerno2022_AprendiendoNodeJS#readme"
+}
