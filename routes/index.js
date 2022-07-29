@@ -2,11 +2,15 @@ import express from 'express';
 const router = express.Router();
 
 router.get('/', (request, response) => {
-    response.send('Index');
+    response.render('inicio');
 })
 
 router.get('/nosotros', (request, response) => {
-    response.send('Nosotros');
+    const viajes = 'Cancún'
+
+    response.render('nosotros', {
+        viajes
+    });
 })
 
 router.get('/contacto', (request, response) => {
