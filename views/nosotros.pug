@@ -1,4 +1,28 @@
 extends ./layout/index
 
-block contenido
-    p Hola #{viajes}
+block contenido 
+    main.container.mt-5
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Imagen nosotros").img-fluid
+            .col-md-7.text-justify
+                h1 #{pagina}
+                blockquote  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat sollicitudin diam, ut egestas mi bibendum a. Cras lectus elit, cursus quis quam id, malesuada viverra magna.
+                p Vestibulum eget nisl eu nulla fringilla pretium. Curabitur eu porttitor nibh. Pellentesque massa est, lacinia sed elementum vel, ultrices et metus. Aenean egestas tincidunt arcu vitae sollicitudin. Maecenas consequat in metus eu volutpat. Nunc ultrices felis vitae ante auctor fringilla.
+                p Suspendisse vitae viverra orci. Nunc quis nunc a dolor finibus mattis eget non risus. Praesent vel bibendum massa, sit amet sodales arcu. Sed in scelerisque tortor, ac gravida ligula. Pellentesque pellentesque pharetra consequat. Quisque sed dolor viverra, luctus ex id, consectetur sem. Aliquam eu facilisis enim. Proin commodo vitae augue non consequat.
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="Icono seguridad").img-fluid.mb-4
+                    h2.mb-4 Viaje asegurado
+                    p.text-justify Suspendisse vitae viverra orci. Nunc quis nunc a dolor finibus mattis eget non risus. Praesent vel bibendum massa, sit amet sodales arcu. Sed in scelerisque tortor, ac gravida ligula. Pellentesque pellentesque pharetra consequat. Quisque sed dolor viverra, luctus ex id, consectetur sem. Aliquam eu facilisis enim. Proin commodo vitae augue non consequat.
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="Icono destinos").img-fluid.mb-4
+                    h2.mb-4 Los mejores destinos
+                    p.text-justify Suspendisse vitae viverra orci. Nunc quis nunc a dolor finibus mattis eget non risus. Praesent vel bibendum massa, sit amet sodales arcu. Sed in scelerisque tortor, ac gravida ligula. Pellentesque pellentesque pharetra consequat. Quisque sed dolor viverra, luctus ex id, consectetur sem. Aliquam eu facilisis enim. Proin commodo vitae augue non consequat.
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="Icono precios").img-fluid.mb-4
+                    h2.mb-4 Al menor precio
+                    p.text-justify Suspendisse vitae viverra orci. Nunc quis nunc a dolor finibus mattis eget non risus. Praesent vel bibendum massa, sit amet sodales arcu. Sed in scelerisque tortor, ac gravida ligula. Pellentesque pellentesque pharetra consequat. Quisque sed dolor viverra, luctus ex id, consectetur sem. Aliquam eu facilisis enim. Proin commodo vitae augue non consequat.
