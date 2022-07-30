@@ -22,11 +22,14 @@ app.use((request, response, next) => {
     return next();
 })
 
-// Agregar router
-app.use('/', router);
+// Agregar bodyParser para leer los datos del formulario
+app.use(express.urlencoded({ extended: true }));
 
 // Agregar la carpeta publica
 app.use(express.static('public'));
+
+// Agregar router
+app.use('/', router);
 
 // Arrancar el servidor
 app.listen(port, () => {
